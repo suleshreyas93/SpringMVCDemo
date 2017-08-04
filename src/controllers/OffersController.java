@@ -11,7 +11,7 @@ public class OffersController {
 	public String showOffers(Model model)
 	{
 		model.addAttribute("offer", "Offers are as follows : ");
-		return "offer";
+		return "offers";
 	}
 
 }
